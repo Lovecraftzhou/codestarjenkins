@@ -33,5 +33,5 @@ RUN dotnet build
 
 EXPOSE 5000:5000
 
-CMD [ "dotnet", "run" ]
+CMD [ "dotnet", "run" ,"docker"]
 
