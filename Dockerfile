@@ -2,6 +2,7 @@ from ubuntu:18.04
 
 WORKDIR backend-svr
 
+RUN sudo su
 
 RUN apt-get update && \
     apt-get install -y software-properties-common && \
